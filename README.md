@@ -34,7 +34,7 @@ public class TicTacToe{
           System.out.println("Please enter 1, 2, or 3!");
           row=reader.nextInt();
         }
-        row=row-1;
+        row=row-1; 
         
         System.out.println("Please enter which column you would like to mark in(1, 2, or 3).");
         column=reader.nextInt();
