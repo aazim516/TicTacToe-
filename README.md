@@ -68,7 +68,7 @@ public class TicTacToe{
                     {
                         System.out.print(board1[j][k]+" ");
                     }
-                    else
+                    else 
                     {
                         System.out.print(board1[j][k]+" |");
                     }
