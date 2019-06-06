@@ -30,7 +30,7 @@ public class TicTacToe{
           
         System.out.println("Please enter which row you would like to mark in(1, 2, or 3).");
         row=reader.nextInt();
-        while ((row<0)||(row>3)) {
+        while ((row<1)||(row>3)) {
           System.out.println("Please enter 1, 2, or 3!");
           row=reader.nextInt();
         }
@@ -38,7 +38,7 @@ public class TicTacToe{
         
         System.out.println("Please enter which column you would like to mark in(1, 2, or 3).");
         column=reader.nextInt();
-        while ((column<0)||(column>3)) {
+        while ((column<1)||(column>3)) {
           System.out.println("Please enter 1, 2, or 3!");
           column=reader.nextInt();
         }
